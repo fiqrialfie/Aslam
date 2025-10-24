@@ -7,18 +7,27 @@ body {
 
 
 .navbar {
-  position: fixed;        
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;             
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
-  background: rgba(0, 0, 0, 0.2); 
-  backdrop-filter: blur(10px);    
-  z-index: 1000;                  
+  padding: 15px 50px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  color: white;
+  z-index: 1000;      
 }
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+
 
 .nav-container {
     display: flex;
